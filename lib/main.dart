@@ -105,6 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text('Amount of clicks:'),
+            
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
